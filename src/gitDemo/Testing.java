@@ -11,6 +11,7 @@ public class Testing
 		System.setProperty("webdriver.chrome.driver","D:/Selenium/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://www.rue21.com");
+		driver.manage().window().maximize();
 		
 	}
 
