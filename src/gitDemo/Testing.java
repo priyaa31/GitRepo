@@ -12,6 +12,7 @@ public class Testing
 		driver=new ChromeDriver();
 		driver.get("http://www.rue21.com");
 		driver.manage().window().maximize();
+		String Str=driver.getTitle();
 		
 	}
 
